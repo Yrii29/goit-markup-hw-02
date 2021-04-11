@@ -1,0 +1,26 @@
+body {
+}
+
+.hat-sector {
+}
+
+.web-span {
+  color: #2196f3;
+}
+
+.main-title {
+  background-color: #2f303a;
+}
+
+.title {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 900;
+}
+
+.button-title {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: normal;
+  background: #2196f3;
+}
