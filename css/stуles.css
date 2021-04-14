@@ -1,10 +1,49 @@
 body {
 }
 
-.hat-sector {
+li {
+  list-style-type: none;
+}
+
+.web {
+  color: #212121;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
 }
 
 .web-span {
+  color: #2196f3;
+}
+
+.list {
+  color: #212121;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.list:hover {
+  color: #2196f3;
+}
+
+.list:focus {
+  color: #2196f3;
+}
+
+.adres-el {
+  color: #757575;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.adres-el:hover {
+  color: #2196f3;
+}
+
+.adres-el:focus {
   color: #2196f3;
 }
 
@@ -16,11 +55,77 @@ body {
   color: #ffffff;
   font-family: Roboto;
   font-weight: 900;
+  font-size: 44px;
 }
 
 .button-title {
   color: #ffffff;
   font-family: Roboto;
-  font-weight: normal;
+  font-weight: 500;
+  font-size: 16px;
   background: #2196f3;
+}
+
+.function {
+  color: #212121;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.function-paragraph {
+  color: #757575;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.headlines {
+  color: #212121;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.function-name {
+  color: #212121;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.footer {
+  background: #2f303a;
+}
+
+.web-footer {
+  color: #ffffff;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.adres {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.button {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+button:hover {
+  color: #ffffff;
+}
+
+button:focus {
+  color: #ffffff;
 }
