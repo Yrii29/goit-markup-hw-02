@@ -1,4 +1,5 @@
 body {
+  text-transform: uppercase;
 }
 
 li {
@@ -6,6 +7,7 @@ li {
 }
 
 .web {
+  text-decoration: none;
   color: #212121;
   font-family: Raleway;
   font-style: normal;
@@ -18,6 +20,7 @@ li {
 }
 
 .list {
+  text-decoration: none;
   color: #212121;
   font-family: Roboto;
   font-weight: 500;
@@ -33,6 +36,7 @@ li {
 }
 
 .adres-el {
+  text-decoration: none;
   color: #757575;
   font-family: Roboto;
   font-weight: 500;
@@ -52,6 +56,7 @@ li {
 }
 
 .title {
+  text-transform: uppercase;
   color: #ffffff;
   font-family: Roboto;
   font-weight: 900;
@@ -59,6 +64,7 @@ li {
 }
 
 .button-title {
+  text-transform: uppercase;
   color: #ffffff;
   font-family: Roboto;
   font-weight: 500;
@@ -67,6 +73,7 @@ li {
 }
 
 .function {
+  text-decoration: none;
   color: #212121;
   font-family: Roboto;
   font-weight: 700;
@@ -74,6 +81,7 @@ li {
 }
 
 .function-paragraph {
+  text-decoration: none;
   color: #757575;
   font-family: Roboto;
   font-weight: 400;
@@ -99,6 +107,7 @@ li {
 }
 
 .web-footer {
+  text-decoration: none;
   color: #ffffff;
   font-family: Raleway;
   font-style: normal;
@@ -107,6 +116,7 @@ li {
 }
 
 .adres {
+  text-decoration: none;
   color: #ffffff;
   font-family: Roboto;
   font-style: normal;
@@ -115,6 +125,7 @@ li {
 }
 
 .button {
+  background-color: #f5f4fa;
   color: #212121;
   font-family: Roboto;
   font-style: normal;
@@ -124,8 +135,13 @@ li {
 
 button:hover {
   color: #ffffff;
+  background-color: #2196f3;
 }
 
 button:focus {
   color: #ffffff;
+  background-color: #2196f3;
+}
+
+.button-li {
 }
