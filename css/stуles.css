@@ -1,9 +1,11 @@
 body {
-  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  font-size: 14px;
 }
 
 li {
-  list-style-type: none;
+  list-style: none;
 }
 
 .web {
@@ -22,7 +24,7 @@ li {
 .list {
   text-decoration: none;
   color: #212121;
-  font-family: Roboto;
+
   font-weight: 500;
   font-size: 14px;
 }
@@ -53,12 +55,16 @@ li {
 
 .main-title {
   background-color: #2f303a;
+  text-align: center;
 }
 
 .title {
+  letter-spacing: 0.06em;
+  line-height: 1.36;
   text-transform: uppercase;
   color: #ffffff;
-  font-family: Roboto;
+  margin: 0 auto;
+  max-width: 696px;
   font-weight: 900;
   font-size: 44px;
 }
@@ -66,7 +72,11 @@ li {
 .button-title {
   text-transform: uppercase;
   color: #ffffff;
-  font-family: Roboto;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  padding: 10px 32px;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   background: #2196f3;
@@ -75,7 +85,6 @@ li {
 .function {
   text-decoration: none;
   color: #212121;
-  font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
 }
@@ -83,21 +92,18 @@ li {
 .function-paragraph {
   text-decoration: none;
   color: #757575;
-  font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
 }
 
 .headlines {
   color: #212121;
-  font-family: Roboto;
   font-weight: 700;
   font-size: 36px;
 }
 
 .function-name {
   color: #212121;
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
 }
@@ -118,16 +124,17 @@ li {
 .adres {
   text-decoration: none;
   color: #ffffff;
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
 }
 
 .button {
+  line-height: 26px;
+  letter-spacing: 0.03em;
   background-color: #f5f4fa;
   color: #212121;
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -143,5 +150,22 @@ button:focus {
   background-color: #2196f3;
 }
 
-.button-li {
+.function-portfolio {
+  text-decoration: none;
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.function-paragraph-portfolio {
+  text-decoration: none;
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+address {
+  font-style: normal;
 }
